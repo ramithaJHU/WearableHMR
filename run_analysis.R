@@ -82,5 +82,5 @@ colnames(tidyData_summarized) <- c("subject", "activity", paste("AVG",
 # Write tidy and Summarized data to a file
 
 write.table(tidyData, "Tidy_Data.txt")
-write.table(tidyData_summarized, "Tidy_Data_Summary.txt")
+write.table(tidyData_summarized, "Tidy_Data_Summary.txt", row.name=FALSE)
 
