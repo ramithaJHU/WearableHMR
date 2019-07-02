@@ -105,11 +105,13 @@ ___
     - `kurtosis`: kurtosis of the frequency domain signal 
     - `bandsEnergy`: Energy of a frequency interval within the 64 bins of the FFT of each window.
 
+- Note: Since all  the values in this data set has not been changed, units are as same as the units of original variables (which are not specified in original documents)
 ___
 #### Variables in "Tidy_Data_Summary.txt"
 
 - Variables in file "Tidy_Data_Summary.txt" were obtained by:
     - All the variables in data set in "Tidy_Data.txt" were first grouped by subject and then grouped by activity. then, the average of each variable for each activity and each subject was calculated.
     - Prefix "AVG" was added to each variable name (except subject and activity) to denote the values are Averaged values
+    - Note: Since all  the values in this data set are averages (mean), units are as same as the units of original variables
 
 ___    
